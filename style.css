@@ -421,7 +421,9 @@ p{
   #footer{
     width: 95%;
     text-wrap:nowrap;
-    padding-left: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 24.5%
   }
 
 
