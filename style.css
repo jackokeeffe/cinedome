@@ -345,6 +345,7 @@ p{
 
 #footer p{
   font-size: 15px;
+  margin-left: 38%;
 }
 
 /* PHONE LAYOUT */
@@ -423,8 +424,11 @@ p{
     text-wrap:nowrap;
     white-space: nowrap;
     overflow: hidden;
-    padding-left: 24.5%
+    padding-left: 24.5%;
   }
 
-
+  #footer p{
+    text-align: center;
+    margin-left: 0;
+  }
 }
