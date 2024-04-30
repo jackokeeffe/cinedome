@@ -14,8 +14,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: 15%;
-    overflow-x: hidden;
   }
+
 /* Replae %s with px, and vh's too (to section size on fs?)*/
   #rohmer{
     position:absolute;
