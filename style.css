@@ -86,6 +86,7 @@ body {
     background-size: cover;
     padding-top: 5%;
     height: 90vh;
+    width: 120%;
 }
 
 #title{
@@ -341,12 +342,11 @@ p{
   color: white;
   background-color: rgb(99, 102, 171);
   padding: 0.3%;
-  width: 100%;
 }
 
 #footer p{
   font-size: 15px;
-  margin-left: 38%;
+  padding-left: 38%;
 }
 
 /* PHONE LAYOUT */
