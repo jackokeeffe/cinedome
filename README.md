@@ -1,6 +1,8 @@
 ## cinedome website
 **download issue three: http://surl.li/tfmgr**
 
+**view the website: https://cinedome.xyz**
+
 ![cover page, issue three](https://github.com/jackokeeffe/cinedome/blob/main/images/cover.png?raw=true)
 
 ![index, issue three](https://github.com/jackokeeffe/cinedome/blob/main/images/index.png?raw=true)
