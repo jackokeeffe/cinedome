@@ -426,11 +426,12 @@ p{
     text-wrap:nowrap;
     white-space: nowrap;
     overflow: hidden;
-    padding-left: 24.5%;
+    padding-left: 0;
+    padding-right: 25vw;
   }
 
   #footer p{
     text-align: center;
-    margin-left: 0;
+    margin-left: -15%;
   }
 }
