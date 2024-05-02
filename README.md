@@ -1,5 +1,5 @@
 ## cinedome website
-**download issue three: http://surl.li/tfmgr**
+**download issue three: [http://surl.li/tfmgr](https://shorturl.at/bijDJ)**
 
 **view the website: https://cinedome.xyz**
 
