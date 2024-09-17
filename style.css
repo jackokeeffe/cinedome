@@ -170,15 +170,58 @@ body {
     margin-top: 13.75%;
 }
 
-#cover{
+#cover-1{
     position: absolute;
     display: block;
-    width: 40%;
-    margin-top: 14.5%;
-    margin-left: 54.5%;
+    width: 25%;
+    margin-top: 18.5%;
+    margin-left: 5%;
     z-index: 1;
-    border: 10px solid rgba(206, 205, 187, 0.608);
+    border: 10px solid rgba(17, 48, 107, 0.608);
     -webkit-user-drag: none;
+}
+
+#issue-one{
+  position: absolute;
+  width: 25%;
+  margin-top: 29.5%;
+  margin-left: -54.3%;
+}
+
+#cover-2{
+  position: absolute;
+  display: block;
+  width: 25%;
+  margin-top: 18.5%;
+  margin-left: 35%;
+  z-index: 1;
+  border: 10px solid rgba(86, 97, 120, 0.608);
+  -webkit-user-drag: none;
+}
+
+#issue-two{
+  position: absolute;
+  width: 25%;
+  margin-top: 29.5%;
+  margin-left: -24.5%;
+}
+
+#cover-3{
+  position: absolute;
+  display: block;
+  width: 25%;
+  margin-top: 18.5%;
+  margin-left: 65%;
+  z-index: 1;
+  border: 10px solid rgba(206, 205, 187, 0.608);
+  -webkit-user-drag: none;
+}
+
+#issue-three{
+  position: absolute;
+  width: 30%;
+  margin-top: 29.7%;
+  margin-left: 3.5%;
 }
 
 #resize{
@@ -377,6 +420,14 @@ p{
     -webkit-user-drag: none;
   }
 
+  #first{
+    margin-bottom: 5%;
+  }
+
+  #second{
+    margin-bottom: 5%;
+  }
+
   #first-section{
     margin-top: 60%;
   }
@@ -384,7 +435,7 @@ p{
   #second-section{
     width: 120%;
     padding-top: 35%;
-    height: 100vh;
+    height: 145vh;
   }
 
   #third-section{
