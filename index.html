@@ -8,8 +8,31 @@
     <link rel="shortcut icon" href="images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=-1.0" />
     <script src="https://kit.fontawesome.com/068e5222ec.js" crossorigin="anonymous"></script>
+    <script src="general.js"></script>
 </head>
 <body>
+    
+    <div class="header">
+        <div id="header-items-mobile">
+            <a id="menu" onclick="showMenu()"><mark><i class="fa-solid fa-bars"></i></mark></a>
+            <a id="home" href=""><mark><p>CINEDOME</p></mark></a>
+
+            <ul id="mobile-items">
+                <li><a href="../index.html"><mark>HOME</mark></a></li>
+                <li><a href="articles/articles.html"><mark>ARTICLES</mark></a></li>
+                <li><a href="/issues/issues.html"><mark>ISSUES</mark></a></li>
+                <li><a href="contact/contact.html"><mark>CONTACT</mark></a></li>
+            </ul>
+        </div>
+        <div id="header-items">
+        <a href="../index.html" class="menu-item active" data-width="20%"><mark>HOME</mark></a>
+        <a href="articles/articles.html" class="menu-item" data-width="30%"><mark>ARTICLES</mark></a>
+        <a href="issues/issues.html" class="menu-item" data-width="40%"><mark>ISSUES</mark></a>
+        <a href="contact/contact.html" class="menu-item" data-width="25%"><mark>CONTACT</mark></a>
+        <div class="selection-banner"></div>
+    </div>
+    </div>
+
     <div id="first-section">
         <img id="welcome" src="images/welcome.png" alt="">
         <img class="phone" src="images/welcome-phone.png" alt="">
@@ -28,12 +51,9 @@
         <img id="magazine" src="images/magazine.png" alt="">
         <img id="download" src="images/download.png" alt="">
         <!--<a class="thumbnail" href="https://letterboxd.com/film/timeless-bottomless-bad-movie/" target="_blank"><img id="jang" src="landing/jang.png" alt="" draggable="false"></a>-->
-        <a class="thumbnail" href="https://drive.google.com/file/d/1sY0ZuNhbizjfMTCoWbpG3I_YBzqkU-s7/view?usp=sharing" target="_blank"><img id="cover-1" src="images/cover-one.png" alt=""></a>
-        <img id="issue-one" src="images/text-one.png" alt="">
-        <a class="thumbnail" href="https://drive.google.com/file/d/1NV7iSoBpvF0LnOyho0fE9hfK_B7xj8bY/view?usp=sharing" target="_blank"><img id="cover-2" src="images/cover-two.png" alt=""></a>
-        <img id="issue-two" src="images/text-two.png" alt="">
-        <a class="thumbnail" href="https://drive.google.com/file/d/1KUJDx2CgOKu8wvBV05haEnggawAZwkeo/view?usp=sharing" target="_blank"><img id="cover-3" src="images/cover-three.jpg" alt=""></a>
-        <img id="issue-three" src="images/text-three.png" alt="">
+        <a class="thumbnail" href="https://drive.google.com/file/d/1sY0ZuNhbizjfMTCoWbpG3I_YBzqkU-s7/view?usp=sharing" target="_blank"><img id="cover-1" src="images/cover-one-mobile.png" alt=""></a>
+        <a class="thumbnail" href="https://drive.google.com/file/d/1NV7iSoBpvF0LnOyho0fE9hfK_B7xj8bY/view?usp=sharing" target="_blank"><img id="cover-2" src="images/cover-two-mobile.png" alt=""></a>
+        <a class="thumbnail" href="https://drive.google.com/file/d/1KUJDx2CgOKu8wvBV05haEnggawAZwkeo/view?usp=sharing" target="_blank"><img id="cover-3" src="images/cover-three-mobile.png" alt=""></a>
     </div>
 
     <div id="fourth-section">

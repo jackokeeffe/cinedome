@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+#overblock{
+    background-color: #907766;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2%;
+}
+
+#article-block{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+#title{
+    font-family: "Sniglet", system-ui;
+    font-size: 300%;
+    line-height: 0;
+    padding-top: 1%;
+}
+
+body{
+    margin-left: 5%;
+    
+    background-color: beige;
+    background-repeat: round;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 20px 16px;
+    background: #ffffff;
+    
+    font-size: 150%;
+    color: #f1f1f1;
+    border-bottom: solid;
+    border-bottom-color: rgb(179, 179, 179);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15%;
+
+}
+
+mark{
+    background-color: rgba(255,255,255,0.6);
+}
+
+img{
+    max-width: 800px;
+}
+
+#issue{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-decoration: underline;
+}
+
+#subtitle{
+    margin-top: 1px;
+    font-size: 15px;
+    color: black;
+    line-height: 1;
+}
+
+#discreet{
+    font-family: "Bodoni Moda", serif;
+    font-weight: 800;
+    font-size: 230%;
+    margin-bottom: -1.5%;
+}
+
+#russia{
+    font-family: "Protest Guerrilla", sans-serif;
+    padding-bottom: 0.5%;
+    font-weight: 400;
+    font-size: 230%;
+    margin-bottom: -1.5%;
+}
+
+#select{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    background-color: rgb(255, 255, 255);
+    padding: 0.3%;
+    width: 100%;
+}
+
+  #footer a{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4%;
+}
+
+i{
+    font-size: 160%;
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#header-items-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    body{
+        font-size: 10px;
+    }
+
+    #overblock{
+        width: 89%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    img{
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    #title{
+        line-height: 1;
+    }
+
+    #subtitle{
+        display: none;
+    }
+
+    /* header /footer stuff */
+    #header-items{
+        display: none;
+    } 
+
+    #header-items-mobile{
+        display: block;
+    }
+
+    #header-items-mobile li{
+        list-style: none;
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+
+    /* change w/ hamburger button click */
+    #mobile-items{
+        display: none;
+    }
+
+    #menu{
+        margin-left: -20%;
+    }
+
+    #home{
+        position: absolute;
+        margin-top: -4.5%;
+        font-size: 150%;
+    } 
+
+    #footer i{
+        padding: 3%;
+    }
+
+}
