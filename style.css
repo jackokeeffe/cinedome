@@ -410,14 +410,20 @@ p{
 }
 
 #footer{
-  color: white;
-  background-color: rgb(99, 102, 171);
-  padding: 0.3%;
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  width: 100%;
 }
 
-#footer p{
-  font-size: 15px;
-  padding-left: 38%;
+#footer a{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 4%;
+}
+
+#icons{
+  margin-left: -25%;
 }
 
 #header-items-mobile{
@@ -508,19 +514,9 @@ p{
     width: 40%;
   }
 
-  #footer{
-    width: 95%;
-    text-wrap:nowrap;
-    white-space: nowrap;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 25vw;
-  }
-
-  #footer p{
-    text-align: center;
-    margin-left: -15%;
-  }
+  #footer i{
+    padding: 3%;
+}
 
   /* header /footer stuff */
   #header-items{
